@@ -27,21 +27,21 @@ should take an array of ingredient instances as an argument, and associate each 
 ### `Allergy`
 An Allergy is a join between a user and an ingredient.  This is a has-many-through relationship.  What methods should an instance of this model respond to?
 
-- `Allergy.all`
+- [x]`Allergy.all`
 should return all of the Allergy instances
 
 ### `User`
 Build the following methods on the User class
 
-- `User.all`
+- [x]`User.all`
 should return all of the user instances
 - `User#recipes`
 should return all of the recipes this user has recipe cards for
 - `User#add_recipe_card`
 should accept a recipe instance as an argument, as well as a date and rating, and create a new recipe card for this user and the given recipe
-- `User#declare_allergy`
+- [x]`User#declare_allergy`
 should accept an`Ingredient` instance as an argument, and create a new `Allergy` instance for this `User` and the given `Ingredient`
-- `User#allergens`
+- [x]`User#allergens`
 should return all of the ingredients this user is allergic to
 - `User#top_three_recipes`
 should return the top three highest rated recipes for this user.
@@ -66,9 +66,9 @@ should return the recipe to which the entry belongs
 ### `Ingredient`
 Build the following methods on the Ingredient class
 
-- `Ingredient.all`
+- [x]`Ingredient.all`
 should return all of the ingredient instances
-- `Ingredient.most_common_allergen`
+- [x]`Ingredient.most_common_allergen`
 should return the ingredient instance that the highest number of users are allergic to
 
 
